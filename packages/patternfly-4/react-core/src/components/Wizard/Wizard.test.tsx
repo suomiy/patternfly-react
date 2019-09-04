@@ -28,6 +28,7 @@ test('Wizard should match snapshot', () => {
   };
   const view = mount(
     <Wizard
+      onClose={() => undefined}
       isOpen
       title="Wizard title"
       description="Description here"
